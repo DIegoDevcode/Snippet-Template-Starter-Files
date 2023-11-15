@@ -1,0 +1,22 @@
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+@media (min-width: 320px) {
+  .navbar {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .menu-img {
+    padding-left: 160px;
+  }
+  .background-container {
+    background-image: url(./Assets/Background.png);
+    background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
+    background-position: center; /* Centra la imagen en el fondo */
+    background-repeat: no-repeat;
+  }
+}
