@@ -11,15 +11,44 @@ body {
 
 @media (min-width: 320px) {
   .navbar-container-bg {
-    background-image: url("./Assets/background.jpg");
+    background-image: url("./Assets/background.png");
     height: 400px;
     width: auto;
   }
-  .navbar-info {
+  .navbar-logo {
     display: flex;
     justify-content: space-evenly;
   }
-}
-.menu-img {
-  padding-left: 160px;
+  .menu-img {
+    padding-left: 160px;
+  }
+  .navbar-info {
+    text-align: center;
+  }
+  .navbar-info h1 {
+    width: auto;
+    font-size: 3.8rem;
+  }
+  .navbar-info p {
+    width: auto;
+    font-size: 1.27rem;
+    padding: 15px;
+  }
+  .nav-button-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  .nav-black-button {
+    width: 250px;
+    height: 50px;
+    background-color: black;
+  }
+  .color-white {
+    color: white;
+    font-weight: bold;
+  }
+  .color-gray {
+    color: grey;
+  }
 }
