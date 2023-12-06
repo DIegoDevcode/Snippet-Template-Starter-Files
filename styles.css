@@ -5,18 +5,21 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+* {
+  margin: 0;
+}
+
 @media (min-width: 320px) {
-  .navbar {
+  .navbar-container-bg {
+    background-image: url("./Assets/background.jpg");
+    height: 400px;
+    width: auto;
+  }
+  .navbar-info {
     display: flex;
     justify-content: space-evenly;
   }
-  .menu-img {
-    padding-left: 160px;
-  }
-  .background-container {
-    background-image: url(./Assets/Background.png);
-    background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
-    background-position: center; /* Centra la imagen en el fondo */
-    background-repeat: no-repeat;
-  }
+}
+.menu-img {
+  padding-left: 160px;
 }
