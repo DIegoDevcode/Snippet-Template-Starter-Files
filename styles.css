@@ -12,7 +12,7 @@ body {
 @media (min-width: 320px) {
   .navbar-container-bg {
     background-image: url("./Assets/background.png");
-    height: 400px;
+    height: 800px;
     width: auto;
   }
   .navbar-logo {
@@ -50,5 +50,19 @@ body {
   }
   .color-gray {
     color: grey;
+  }
+  .p-notcard {
+    text-align: center;
+    font-size: 1.27rem;
+    padding: 3px;
+  }
+  .snippet-container {
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .snippet-image {
+    width: 450px;
   }
 }
